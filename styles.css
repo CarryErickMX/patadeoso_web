@@ -156,7 +156,7 @@ html { scrollbar-color: var(--oliva-suave) var(--bosque-hondo); }
   grid-template-columns: repeat(12, minmax(0, 1fr));
   grid-template-rows: 1fr auto;
   column-gap: clamp(16px, 3vw, 40px);
-  min-height: min(calc(100svh - 104px), 960px);
+  min-height: min(calc(100svh - 64px), 960px);
   padding: clamp(40px, 7vw, 96px) var(--gutter) 0;
   max-width: calc(var(--ancho) + 2 * var(--gutter));
   margin-inline: auto;
@@ -613,9 +613,3 @@ html { scrollbar-color: var(--oliva-suave) var(--bosque-hondo); }
   .menu-tabs, .corte-tabs { gap: 2px 20px; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter); }
 }
 
-/* Aviso de propuesta: deja claro que no es el sitio oficial */
-.aviso {
-  margin: 0; padding: 10px var(--gutter);
-  background: var(--chartreuse); color: var(--bosque);
-  font-size: 0.9rem; font-weight: 600; text-align: center;
-}
